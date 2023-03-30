@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Comentarios*/
+
+body{
+    width: 1000px;
+    height: 800px;
+    background-color: white;
+    margin: auto;
+}
+
+header{
+    width: 1000px;
+    height: 200px;
+    background-color: white;
+}
+
+
+#banner{
+    margin: auto;
+    margin-top: 10px;
+    width: 1000px;
+    height: 150px;
+    background-color: rgb(228, 101, 101);
+    float: left;
+    position: relative ;
+    border-radius: 8px ;
+    text-align: center;
+}
+
+#logo{
+    width: 150px;
+    height: 33px;
+    background-color: rgb(255, 255, 101);
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    border-radius: 8px ;
+    text-align: center;
+}
+
+.navegador{
+    margin-top: 12px;
+    border-radius: 9px;
+    float: left;
+    width: 700px;
+    height: 600px;
+    background-color: rgb(58, 113, 214);
+    position: relative ;
+    text-align: center;
+}
+
+.articulo{
+    width: 670px;
+    height: 480px;
+    background-color: rgb(69, 202, 69);
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    border-radius: 8px ;
+    text-align: center;
+}
+.section{
+    width: 640px;
+    height: 119px;
+    background-color: rgb(175, 253, 175);
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    border-radius: 8px ;
+    text-align: center;
+}
+
+.section2{
+    width: 640px;
+    height: 119px;
+    background-color: rgb(175, 253, 175);
+    position: absolute;
+    right: 15px;
+    top: 180px;
+    border-radius: 8px ;
+    text-align: center;
+}
+
+.section3{
+    width: 640px;
+    height: 119px;
+    background-color: rgb(175, 253, 175);
+    position: absolute;
+    right: 15px;
+    top: 320px;
+    border-radius: 8px ;
+    text-align: center;
+}
+
+.footer{
+    width: 680px;
+    height: 40px;
+    background-color: rgb(255, 190, 239);
+    position: absolute;
+    right: 10px;
+    top: 530px;
+    border-radius: 8px ;
+    text-align: center;
+}
+
+
+
+/*Aside*/
+
+
+.aside{
+    margin-left: 8px ;
+    margin-top: 12px;
+    border-radius: 9px;
+    float: left;
+    width: 292px;
+    height: 600px;
+    background-color: rgb(71, 190, 226);
+    position: relative ;
+    text-align: center;
+}
+
+.secciones{
+    width: 265px;
+    height: 100px;
+    background-color: rgb(175, 253, 175);
+    position: absolute;
+    right: 10px;
+    top: 45px;
+    border-radius: 8px ;
+    text-align: center;
+}
+
+.secciones2{
+    width: 265px;
+    height: 320px;
+    background-color: rgb(175, 253, 175);
+    position: absolute;
+    right: 10px;
+    top: 160px;
+    border-radius: 8px ;
+    text-align: center;
+}
+
+
+
+
+.footerpage{
+    margin-top: 10px;
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(255, 190, 239);
+    border-radius: 8px ;
+    float: left;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
