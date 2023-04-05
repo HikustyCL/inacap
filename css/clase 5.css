@@ -1,0 +1,48 @@
+body{
+    background-color: tomato;
+}
+
+ul, p{
+    margin: 0px;
+}
+
+.contenedor{
+    width: 300px;
+    height: 40px;
+    color: white;
+    font-size: 40px;
+    margin: auto;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    line-height: 40px;
+    display: flex;
+    overflow: hidden;
+}
+
+ul{
+    padding-left: 10px;
+    list-style: none;
+    animation: cambiar 7s infinite;
+}
+
+@keyframes cambiar {
+
+    0%{margin-top: 0px;}
+    25%{margin-top: 0px;}
+
+    25%{margin-top: -40px;}
+    50%{margin-top: -40px;}
+
+    50%{margin-top: -80px;}
+    80%{margin-top: -80px;}
+
+    80%{margin-top: -40px;}
+    90%{margin-top: -40px;}
+
+    100%{margin-top: 0px;}
+    
+}
+

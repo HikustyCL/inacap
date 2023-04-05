@@ -1,0 +1,34 @@
+.banner{
+    width: 700px;
+    height: 300px;
+    border: 5px solid red;
+    margin: auto;
+    background-image: url(../images/b01.jpg);
+    background-size: 100% 100%;
+    animation: cambio 10s infinite;
+}
+
+@keyframes cambio {
+    
+    0%, 30%{
+        background-image: url(../images/b01.jpg); 
+        opacity: 1;
+        border-color: green;
+    }
+    
+        31%, 33%{opacity: 0.1;}
+
+    34%, 65%{
+            background-image: url(../images/b02.jpg); 
+            opacity: 1;
+            border-color: blue;
+        }
+    66%, 69%{opacity: 0.1;}
+
+    70%, 96%{
+        background-image: url(../images/b03.jpg); 
+        opacity: 1;
+        border-color: red;}
+    97%, 100%{opacity: 0.1;}
+    
+}
